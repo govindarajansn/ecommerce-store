@@ -1,8 +1,8 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
-import { useCartStore } from "./stores/cart";
+// import { useCartStore } from "./stores/cart";
 
-const cartStore = useCartStore();
+// const cartStore = useCartStore();
 </script>
 
 <template>
@@ -13,7 +13,7 @@ const cartStore = useCartStore();
         <RouterLink to="/" class="px-3">Shop</RouterLink>
         <RouterLink to="/cart" class="px-3">
           Cart
-          {{ cartStore }}
+         
           <!-- total products count here  -->
         </RouterLink>
       </div>
